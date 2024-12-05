@@ -13,7 +13,7 @@ from sklearn.tree import plot_tree
 print("1. Análisis Exploratorio de Datos")
 
 # Cargar los datos
-df = pd.read_csv('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Titanic-Dataset-ARN6IbjPT4VRYsDHxVBxA6sn9kZJH3.csv')
+df = pd.read_csv('Titanic-Dataset.csv')
 
 # Mostrar información básica sobre el conjunto de datos
 print(df.info())
